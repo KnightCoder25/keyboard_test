@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                tools:context=".MainActivity">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:background="@color/accent_material_dark"
+                    android:layout_height="match_parent">
+        <Button
+                android:id="@+id/btnClick"
+                android:text="Click me, i should be hidded"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+    </RelativeLayout>
+
+        <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+            <EditText
+                    android:id="@+id/edtText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:textSize="28sp"
+                    android:text="Am at the top of keyboard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
